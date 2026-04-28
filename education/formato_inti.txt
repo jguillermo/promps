@@ -1,0 +1,97 @@
+ESTILO INTI – ESPECIFICACIÓN PARA FICHAS PEDAGÓGICAS
+
+Las fichas (informativa y de trabajo) deben generarse en FORMATO ESTILO INTI, con las siguientes características obligatorias:
+
+FORMATO TÉCNICO:
+- Salida en archivo PDF (no Word).
+- Hoja A4 vertical, márgenes de 8 mm.
+- Una sola página por ficha, contenido compacto pero legible.
+
+MARCO EXTERIOR:
+- Borde rojo punteado (color #d11414) de 4 px, esquinas redondeadas (14 px), rodeando todo el contenido de la ficha.
+
+TIPOGRAFÍA:
+- Comic Sans MS o similar (cursiva escolar amigable). Nunca Arial ni Times.
+- Cuerpo de texto: 11.5 a 13 pt, color gris oscuro (#222).
+
+TÍTULO PRINCIPAL:
+- Color magenta fuerte (#c9006a), cursiva, negrita, 22 pt, centrado, con sombra rosa pálida.
+- Inicia con signo de exclamación o pregunta. Ejemplo: "¡Resolvemos…!" o "¿Cómo podemos…?".
+
+SUBTÍTULO Y DATOS GENERALES:
+- Subtítulo en azul institucional (#1f4e79), negrita, 13 pt, centrado, con el formato: "Área: ___ • Grado ___ • I.E. ___".
+- Línea de datos del estudiante con espacios subrayados: Estudiante, Grado, Fecha. Etiquetas en negrita azul.
+
+TÍTULOS DE SECCIÓN:
+- Color magenta (#c9006a), negrita, 14 pt, precedidos por la flecha "➤".
+
+SITUACIÓN SIGNIFICATIVA:
+- Diseño en dos columnas: texto justificado a la izquierda, ilustración a la derecha (220 px de ancho, marco morado #6b3fa0 de 3 px, esquinas redondeadas).
+- La ilustración se genera con PIL/Python contextualizada al ámbito local del estudiante (escenarios cotidianos, escolares, comunales o familiares).
+- Palabras clave del texto en negrita azul (#1f4e79).
+
+PREGUNTAS:
+- Precedidas por la flecha "➤", color magenta (#c9006a), negrita, 13 pt.
+- Redactadas en segunda persona.
+
+OPCIONES DE RESPUESTA (rasgo distintivo del estilo):
+- Cuadros con bordes redondeados (14 px) y borde punteado (dashed) de 2.5 px.
+- Distribuidas horizontalmente: 2, 3 o 4 opciones por pregunta.
+- Paleta rotativa de colores (cada cuadro de un color distinto):
+  Rosa: fondo #ffe6ef, borde #e91e63
+  Verde: fondo #e6f7e0, borde #4caf50
+  Morado: fondo #f0e6ff, borde #6b3fa0
+  Azul: fondo #e0f0ff, borde #1976d2
+  Amarillo: fondo #fff7d6, borde #f9a825
+  Naranja: fondo #ffe9d6, borde #f57c00
+- Texto centrado, 12 pt, altura mínima 60 px.
+- Incluir distractores plausibles (no solo la respuesta correcta).
+
+CAJAS DE RESPUESTA ABIERTA:
+- Fondo azul muy claro (#f4faff), borde punteado azul (#1976d2), esquinas redondeadas.
+- Líneas punteadas internas para escribir, estilo cuaderno.
+- Etiquetas internas en azul negrita: "Mi operación:", "Mi respuesta:", "Mi representación:".
+
+CAJA RETO:
+- Fondo amarillo cálido (#fff7d6), borde punteado naranja oscuro (#e65100).
+- Encabezado: "★ RETO – [título]" en naranja oscuro negrita.
+
+CAJA METACOGNICIÓN (al final de la ficha de trabajo):
+- Fondo morado claro (#f0e6ff), borde punteado morado (#6b3fa0).
+- Encabezado: "🧠 Reflexiono sobre mi aprendizaje:".
+- Preguntas reflexivas con flechas y líneas punteadas para responder.
+- Incluir siempre una pregunta sobre la utilidad de lo aprendido en la vida cotidiana.
+
+CAJA RECUERDA (solo en ficha informativa):
+- Fondo naranja claro (#ffe9d6), borde punteado naranja oscuro (#e65100).
+- Texto centrado, color rojo, negrita, con estrellas decorativas: "★ RECUERDA: … ★".
+
+TABLAS DE INFORMACIÓN (en ficha informativa):
+- Sin bordes tradicionales: cada celda es una caja con borde punteado morado.
+- Primera columna en negrita color morado, fondo lila claro (#ede1ff).
+- Segunda columna fondo morado muy claro (#f5efff).
+- Espaciado entre filas de 4 px.
+
+ESTRUCTURA OBLIGATORIA DE LA FICHA DE TRABAJO INTI:
+1. Título atractivo en exclamación o pregunta.
+2. Subtítulo con datos generales.
+3. Datos del estudiante.
+4. Situación significativa con ilustración contextualizada.
+5. Mínimo 3 preguntas con opciones de respuesta en cuadros de colores.
+6. Espacio para representación gráfica o simbólica.
+7. Caja Reto.
+8. Caja Metacognición con pregunta sobre la utilidad de lo aprendido en la vida diaria.
+
+ESTRUCTURA OBLIGATORIA DE LA FICHA INFORMATIVA INTI:
+1. Título atractivo.
+2. Subtítulo con datos generales.
+3. Definición del tema en caja amarilla con ilustración integrada.
+4. Sección de "Formas de representar" o "Tipos / Clases" en tres columnas de colores (rosa, verde, azul).
+5. Tabla de estrategias, ejemplos o características en estilo morado punteado.
+6. Sección "¿Dónde lo uso en mi vida?" en cuadros azules.
+7. Caja Recuerda al final.
+
+ICONOS PERMITIDOS:
+➤ (flecha de pregunta), ★ (reto, recuerda), 🧠 (metacognición), ✏️ (propósito), 📌 (datos importantes). Máximo 1 emoji por sección.
+
+NOTA: La sesión de aprendizaje (planificación curricular) sigue generándose en formato Word como de costumbre; SOLO las fichas (informativa y de trabajo) se generan en Estilo INTI (PDF).
